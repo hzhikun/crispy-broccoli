@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tk.test.mapper.mapper.TabRadarMapper">
+  <resultMap id="BaseResultMap" type="com.tk.test.mapper.model.TabRadar">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="visit" jdbcType="DOUBLE" property="visit" />
+    <result column="success" jdbcType="DOUBLE" property="success" />
+    <result column="apprespond" jdbcType="DOUBLE" property="apprespond" />
+    <result column="netrespond" jdbcType="DOUBLE" property="netrespond" />
+    <result column="user" jdbcType="DOUBLE" property="user" />
+    <result column="totalflow" jdbcType="DOUBLE" property="totalflow" />
+    <result column="maxnet" jdbcType="DOUBLE" property="maxnet" />
+    <result column="alarm" jdbcType="DOUBLE" property="alarm" />
+    <result column="avernet" jdbcType="DOUBLE" property="avernet" />
+    <result column="riqi" jdbcType="DATE" property="riqi" />
+  </resultMap>
+</mapper>
